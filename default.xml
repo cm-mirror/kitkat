@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-11.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project name="M1cha/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="cm-11.0-legacyaudio" />
+  <project name="M1cha/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="kk_2.7" />
+  <project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-11.0" />
+  <project name="M1cha/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0-legacyaudio" />
+</manifest>
