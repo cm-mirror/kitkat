@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-11.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="build" name="Team-Hydra/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="android" name="Team-Hydra/android" />
+  <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
+  <project path="device/htc/holiday" name="Team-Hydra/android_device_htc_holiday" />
+  <project path="device/htc/pyramid" name="Team-Hydra/android_device_htc_pyramid" />
+  <project path="frameworks/av" name="Team-Hydra/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/native" name="Team-Hydra/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="Team-Hydra/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="Team-Hydra/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/display-legacy" name="Team-Hydra/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/gps-legacy" name="Team-Hydra/android_hardware_qcom_gps-legacy" />
+  <project path="hardware/qcom/media-legacy" name="Team-Hydra/android_hardware_qcom_media-legacy" />
+  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" />
+  <project path="packages/apps/Torch" name="Team-Hydra/android_packages_apps_Torch" />
+  <project path="prebuilt/linux-x86/toolchain/linaro" name="Team-Hydra/linaro" />
+  <project path="system/core" name="Team-Hydra/android_system_core" groups="pdk" />
+  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" />
+</manifest>
+
