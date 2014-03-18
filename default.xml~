@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="xda"
+           fetch=".." />
+
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.org" />
+
+  <remote name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+  <default revision="refs/tags/android-4.4.2_r2"
+           remote="aosp"
+           sync-j="4" />
+<!-- CM stuff -->
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
+
+  <!--Endeavoru parts -->
+  <project path="device/htc/tegra3-common" name="audahadi/device_htc_tegra3-common" remote="github" revision="omni" />
+  <project path="device/htc/endeavoru" name="audahadi/device_htc_endeavoru" remote="github" revision="omni" />
+  <project name="CyanogenMod/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="cm-11.0" />
+  
+  <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
+  <project name="proprietary_vendor_htc" path="vendor/htc" remote="TheMuppets" revision="cm-11.0" />
+
+</manifest>
