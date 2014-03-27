@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="http://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+           sync-j="1" />
+
+  <remote  name="cm"
+           fetch="git://github.com/" 
+           review="review.cyanogenmod.org" 
+           sync-j="4" />
+
+  <remote  name="cr"
+           fetch="git://github.com/"
+           review="review.carbon-rom.com"
+           sync-j="4" />
+
+  <remote  name="gh"
+           fetch="https://github.com/"
+           sync-j="4" />
+
+  <remote  name="sf"
+	   fetch="git://git.code.sf.net/p/"
+	   sync-j="4" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
+
+  <default revision="refs/heads/kk"
+           remote="cr"
+           sync-j="4" />
+  <project path="device/htc/ville" name="CarbonDev/android_device_htc_ville" remote="cr" revision="jb2" />
+  <project path="device/motorola/spyder" name="CarbonDev/android_device_motorola_spyder" remote="cr" revision="jb2" />
+  <project path="device/oppo/find5" name="CarbonDev/android_device_oppo_find5" remote="cr" revision="jb3" />
+  <project path="device/htc/dlx" name="CarbonDev/android_device_htc_dlx" remote="cr" revision="jb3" />
+  <project path="device/samsung/n7100" name="CarbonDev/android_device_samsung_n7100" remote="cr" revision="jb3" />
+  <project path="device/samsung/d710" name="CarbonDev/android_device_samsung_d710" remote="cr" revision="jb3" />
+  <project path="device/samsung/crespo" name="CarbonDev/android_device_samsung_crespo" remote="cr" revision="jb3" />
+  <project path="device/htc/m7ul" name="CarbonDev/android_device_htc_m7ul" remote="cr" revision="kk" />
+  <project path="device/samsung/maguro" name="CarbonDev/android_device_samsung_maguro" remote="cr" revision="kk" />
+  <project path="device/lge/hammerhead" name="CarbonDev/android_device_lge_hammerhead" remote="cr" revision="kk" />
+  <project path="device/lge/mako" name="CarbonDev/android_device_lge_mako" remote="cr" revision="kk" />
+  <project path="device/samsung/d2vzw" name="CarbonDev/android_device_samsung_d2vzw" remote="cr" revision="kk" />
+  <project path="device/samsung/n7000" name="CarbonDev/android_device_samsung_n7000" remote="cr" revision="kk" />
+  <project path="device/samsung/i9300" name="CarbonDev/android_device_samsung_i9300" remote="cr" revision="kk" />
+  <project path="device/samsung/i9100" name="CarbonDev/android_device_samsung_i9100" remote="cr" revision="kk" />
+  <project path="device/samsung/i9305" name="CarbonDev/android_device_samsung_i9305" remote="cr" revision="kk" />
+  <project path="device/htc/m7" name="CarbonDev/android_device_htc_m7" remote="cr" revision="kk" />
+  <project path="device/htc/endeavoru" name="CarbonDev/android_device_htc_endeavoru" remote="cr" revision="kk" />
+  <project path="device/lge/d802" name="CarbonDev/android_device_lge_d802" remote="cr" revision="kk" />
+</manifest>
