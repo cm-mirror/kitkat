@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-11.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project name="dhacker29/android_device_qcom_msm8625" path="device/qcom/msm8625" remote="github" revision="jellybean" />
+  <project name="dhacker29/android_kernel_nokia_normandy" path="kernel/nokia/normandy" remote="github" revision="cm-11.0" />
+  <project name="dhacker29/android_device_nokia_normandy" path="device/nokia/normandy" remote="github" revision="cm-11.0" />
+  <project name="dhacker29/android_vendor_nokia_normandy" path="vendor/nokia/normandy" remote="github" revision="cm-11.0" />
+</manifest>
