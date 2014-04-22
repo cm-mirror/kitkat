@@ -17,9 +17,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project name="M1cha/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="cm-11.0-legacyaudio" />
-  <project name="M1cha/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="cm-11.0" />
-  <project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-11.0" />
-  <project name="M1cha/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0-legacyaudio" />
-  <project name="M1cha/android_vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="github" revision="cm-11.0" />
+  <project name="MoKee/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_vendor_xiaomi_aries" path="vendor/xiaomi/aries" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_vendor_xiaomi_msm8960-common" path="vendor/xiaomi/msm8960-common" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_vendor_xiaomi_qcom-common" path="vendor/xiaomi/qcom-common" remote="github" revision="kk_mkt" />
 </manifest>
