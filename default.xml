@@ -29,8 +29,8 @@
 
 <project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" revision="cm-11.0" />
 <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" revision="cm-11.0" />
-<project path="hardware/qcom/display-caf" name="armani-dev/android_hardware_qcom_display-caf" revision="cm-11.0" />
+<project path="hardware/qcom/display-caf-legacy" name="armani-dev/android_hardware_qcom_display-caf-legacy" revision="cm-11.0" />
 <project path="hardware/libhardware_legacy" name="armani-dev/android_hardware_libhardware_legacy" revision="cm-11.0" />
-<project path="hardware/qcom/media-caf" name="armani-dev/android_hardware_qcom_media-caf" revision="cm-11.0" />
+<project path="hardware/qcom/media-caf-legacy" name="armani-dev/android_hardware_qcom_media-caf-legacy" revision="cm-11.0" />
 </manifest>
 
