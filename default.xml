@@ -23,6 +23,7 @@
   <project name="ArchiDroid/android_hardware_ril" path="hardware/ril" remote="github" /-->
   <project name="ArchiDroid/android_frameworks_av" path="frameworks/av" remote="github" />
   <!--project name="ArchiDroid/android_frameworks_base" path="frameworks/base" remote="github" /-->
+  <project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" />
   <project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" />
   <!--project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
   <project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" /-->
