@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-12.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  	<!-- Replaced projects -->
+  <project name="Lysergic-Acid/android_system_core" path="system/core" remote="github" />
+  <project name="Lysergic-Acid/android_hardware_ril" path="hardware/ril" remote="github" />
+  <project name="Lysergic-Acid/android_system_vold" path="system/vold" remote="github" />
+  <project name="Lysergic-Acid/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="Lysergic-Acid/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" />
+  <project name="Lysergic-Acid/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" />
+</manifest>
+
