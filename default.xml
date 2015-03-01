@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-5.0.2_r1" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-12.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+  <project path="external/sepolicy" name="LOSP/external_sepolicy" groups="pdk" />
+  <project path="hardware/qcom/audio/default" name="LOSP/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LOSP/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
+  <!-- LOSP stuffs -->
+  <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" />
+  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" />
+  <project path="platform_manifest" name="LOSP/platform_manifest" />
+</manifest>
+
