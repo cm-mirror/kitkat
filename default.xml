@@ -23,6 +23,5 @@
   <!-- LOSP stuffs -->
   <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" />
   <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" />
-  <project path="platform_manifest" name="LOSP/platform_manifest" />
 </manifest>
 
