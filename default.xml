@@ -22,6 +22,5 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="LOSP/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
   <!-- LOSP stuffs -->
   <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" />
-  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" />
 </manifest>
 
