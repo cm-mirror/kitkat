@@ -18,7 +18,7 @@
            sync-c="true"
            sync-j="4" />
   <project path="external/sepolicy" name="LOSP/external_sepolicy" groups="pdk" />
-  <project path="hardware/qcom/audio/default" name="M1cha/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-12.0" />
+  <project path="hardware/qcom/audio/default" name="M1cha/android_hardware_qcom_audio" groups="github" revision="staging/cm-12.0" />
   <project path="hardware/qcom/audio-caf/msm8974" name="M1cha/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8960" name="M1cha/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
   <!-- LOSP stuffs -->
