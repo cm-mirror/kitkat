@@ -21,7 +21,6 @@
 <project name="ArchiDroid/android_bionic" path="bionic" remote="github" />
 <project name="ArchiDroid/android_build" path="build" remote="github" />
 <project name="ArchiDroid/android_frameworks_av" path="frameworks/av" remote="github" />
-<project name="ArchiDroid/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1"/>
 <project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" />
 <project name="ArchiDroid/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
 <project name="ArchiDroid/android_packages_services_Telecomm" path="packages/services/Telecomm" />
