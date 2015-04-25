@@ -34,5 +34,6 @@
 <project name="ArchiDroid/ArchiKernel" path="kernel/samsung/smdk4412" remote="github" revision="smdk4412" />
 <project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />
 <!-- /i9300 -->
+<project path="vendor/samsung-9500" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
 </manifest>
 
