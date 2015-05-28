@@ -24,6 +24,6 @@
 <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-12.0" />
 <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.0" />
 <project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" />
-<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
+<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />
 </manifest>
 
