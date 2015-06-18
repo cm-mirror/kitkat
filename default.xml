@@ -18,18 +18,10 @@
            sync-j="4" />
 
   <!-- EXTRAS -->
-<project name="kularny/android_frameworks_native" path="frameworks/native" remote="github" revision="mkl-mr1" groups="pdk" />
-<project name="kularny/android_frameworks_av" path="frameworks/av" remote="github" revision="mkl-mr1" groups="pdk" />
-<project name="kularny/android_hardware_samsung" path="hardware/samsung" remote="github" revision="mkl-mr1" />
-<project name="kularny/android_bionic" path="bionic" remote="github" revision="mkl-mr1" groups="pdk" />
-<project name="kularny/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" groups="pdk-cw-fs" />
-<project name="kularny/android_external_sepolicy" path="external/sepolicy" remote="github" revision="mkl-mr1" groups="pdk" />
-<!-- DEVICE -->
-<project name="kularny/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="mkl-mr1" />
-<project name="kularny/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="mkl-mr1" />
-<!-- VENDOR -->
-<project name="kularny/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="mkl-mr1" />
-<project name="kularny/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="mkl-mr1" />
-<project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" remote="github" revision="cm-12.1" />
+<project name="sainath24/android_hardware_samsung" path="hardware/samsung" remote="github" revision="n-2.1" />
+<project name="AuzOne/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cm-12.1" />
+  <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" remote="github" revision="cm-12.1" />
+  <project name="sainath24/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="n-2.1" />
+  <project name="sainath24/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="n-2.1" />
 </manifest>
 
