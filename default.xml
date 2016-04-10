@@ -18,15 +18,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project name="n7100-dev/android_frameworks_av" path="frameworks/av" remote="github" />
-  <project name="n7100-dev/android_frameworks_native" path="frameworks/native" remote="github" />
-  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="Haxynox/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="Mmm" />
-  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
-  <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
-  <project name="n7100-dev/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+  <project name="mi4c-dev/android_frameworks_native" path="frameworks/native" remote="github" />
+  <project name="mi4c-dev/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" remote="github" revision="cm-13.0-caf-msm8994" />
+  <project name="mi4c-dev/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="github" revision="cm-13.0-caf-msm8994" />
+  <project name="mi4c-dev/android_external_jpeg" path="external/jpeg" remote="github" />
 
 </manifest>
 
