@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-6.0.1_r3" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-13.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project name="Trafalgar-Square/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-13.0" />
+  <project name="Trafalgar-Square/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-13.0" />
+  <project name="Trafalgar-Square/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-13.0" />
+  <project name="Trafalgar-Square/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
+  <project name="Trafalgar-Square/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="nameless" />
+  
+</manifest>
