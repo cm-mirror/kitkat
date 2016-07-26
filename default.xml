@@ -19,8 +19,8 @@
            sync-j="4" />
 
   <project name="mi4c-dev/android_frameworks_native" path="frameworks/native" remote="github" />
-  <project name="mi4c-dev/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" remote="github" revision="cm-13.0-caf-msm8994" />
-  <project name="mi4c-dev/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="github" revision="cm-13.0-caf-msm8994" />
+  <project name="mi4c-dev/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" remote="github" revision="cm-13.0-caf-8994" />
+  <project name="mi4c-dev/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" remote="github" revision="cm-13.0-caf-8994" />
   <project name="mi4c-dev/android_external_jpeg" path="external/jpeg" remote="github" />
 
 </manifest>
