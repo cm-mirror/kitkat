@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.1.1_r4" />
+
+  <default revision="refs/heads/cm-14.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project name="Note-2/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-14.1" />
+  <project name="Note-2/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-14.1" />
+  <project name="Note-2/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1" />
+  <project name="Note-2/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
+  <project name="Note-2/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
+  
+</manifest>
